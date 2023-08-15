@@ -1,0 +1,12 @@
+2023-08-14 18:43:39.555  INFO 33100 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 33100 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-14 18:43:39.558  INFO 33100 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-14 18:43:39.591  WARN 33100 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 98:13]
+2023-08-14 18:43:39.591  WARN 33100 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 94:13]
+2023-08-14 18:43:39.593  INFO 33100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-14 18:43:39.593  INFO 33100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-14 18:43:39.986  INFO 33100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-14 18:43:40.000  INFO 33100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-14 18:43:40.315  INFO 33100 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 722 ms
+2023-08-14 18:43:41.887  INFO 33100 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-14 18:43:41.975  INFO 33100 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-14 18:43:41.982  INFO 33100 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 2.742 seconds (JVM running for 3.664)

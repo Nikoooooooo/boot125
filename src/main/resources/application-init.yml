@@ -1,0 +1,29 @@
+server:
+  port: 8082
+  servlet:
+    session.timeout: 60000
+    contextPath: /
+
+logging:
+  level:
+    org.springframework: trace
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3308/testbank?serverTimezone=UTC
+    username: root
+    password: a
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      schema-locations:
+        -classpath*: schema-all.sql
+      data-locations:
+        -classpath*: data-all.sql
+      username: root
+      password: a
+      mode: ALWAYS      #脚本的初始化
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启SQL语句打印
