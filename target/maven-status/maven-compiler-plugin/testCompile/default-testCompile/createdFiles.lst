@@ -1,5 +1,5 @@
+com\yc\biz\AccountBizImplTest.class
+com\yc\dao\OpRecordJdbcTemplateImplTest.class
 com\yc\TestApp.class
 com\yc\dao\AccountDaoJdbcTemplateImplTest.class
 com\yc\Testinit.class
-com\yc\biz\AccountBizImplTest.class
-com\yc\dao\OpRecordJdbcTemplateImplTest.class

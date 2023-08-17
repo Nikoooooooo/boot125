@@ -1,12 +1,374 @@
-2023-08-14 18:43:39.555  INFO 33100 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 33100 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
-2023-08-14 18:43:39.558  INFO 33100 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
-2023-08-14 18:43:39.591  WARN 33100 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 98:13]
-2023-08-14 18:43:39.591  WARN 33100 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 94:13]
-2023-08-14 18:43:39.593  INFO 33100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-08-14 18:43:39.593  INFO 33100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-08-14 18:43:39.986  INFO 33100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-08-14 18:43:40.000  INFO 33100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
-2023-08-14 18:43:40.315  INFO 33100 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 722 ms
-2023-08-14 18:43:41.887  INFO 33100 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-08-14 18:43:41.975  INFO 33100 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
-2023-08-14 18:43:41.982  INFO 33100 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 2.742 seconds (JVM running for 3.664)
+2023-08-17 08:47:09.816  INFO 3996 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 3996 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-17 08:47:09.820  INFO 3996 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 08:47:09.851  INFO 3996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 08:47:09.852  INFO 3996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 08:47:10.428  INFO 3996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 08:47:10.429  INFO 3996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 08:47:10.437  INFO 3996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 08:47:10.446  INFO 3996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 08:47:10.447  INFO 3996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 08:47:10.454  INFO 3996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-08-17 08:47:10.837  INFO 3996 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 985 ms
+2023-08-17 08:47:12.433  INFO 3996 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 08:47:12.700  INFO 3996 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 08:47:12.818  INFO 3996 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 08:47:12.828  INFO 3996 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 3.267 seconds (JVM running for 4.162)
+2023-08-17 08:47:15.164  INFO 3996 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 09:35:29.333  INFO 4520 --- [main] com.yc.RedisTest                         : Starting RedisTest using Java 11.0.17 on DESKTOP-JLS5AVN with PID 4520 (started by qq271 in E:\java(idea)\boot125)
+2023-08-17 09:35:29.334  INFO 4520 --- [main] com.yc.RedisTest                         : The following 1 profile is active: "test"
+2023-08-17 09:35:30.065  INFO 4520 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 09:35:30.067  INFO 4520 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 09:35:30.080  INFO 4520 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-08-17 09:35:30.090  INFO 4520 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 09:35:30.091  INFO 4520 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 09:35:30.100  INFO 4520 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 09:35:34.155  INFO 4520 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 09:35:34.169  INFO 4520 --- [main] com.yc.RedisTest                         : Started RedisTest in 5.176 seconds (JVM running for 6.376)
+2023-08-17 09:35:35.004  INFO 4520 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 10:00:30.552  INFO 18840 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 18840 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-17 10:00:30.553  INFO 18840 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 10:00:30.582  INFO 18840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 10:00:30.582  INFO 18840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 10:00:31.157  INFO 18840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:00:31.157  INFO 18840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:00:31.166  INFO 18840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:00:31.174  INFO 18840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:00:31.175  INFO 18840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:00:31.183  INFO 18840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:00:31.642  INFO 18840 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1060 ms
+2023-08-17 10:00:33.218  INFO 18840 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 10:00:33.518  INFO 18840 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 10:00:33.644  INFO 18840 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:00:33.653  INFO 18840 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 3.364 seconds (JVM running for 4.273)
+2023-08-17 10:01:17.517  INFO 18840 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 10:01:17.519  INFO 18840 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 10:01:58.819  WARN 18840 --- [XNIO-1 task-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-08-17 10:02:14.270  WARN 18840 --- [XNIO-1 task-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-08-17 10:02:15.111  WARN 18840 --- [XNIO-1 task-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-08-17 10:02:21.754  WARN 18840 --- [XNIO-1 task-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-08-17 10:02:49.383  INFO 18840 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 10:02:53.062  INFO 4996 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 4996 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-17 10:02:53.062  INFO 4996 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 10:02:53.092  INFO 4996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 10:02:53.093  INFO 4996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 10:02:53.648  INFO 4996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:02:53.648  INFO 4996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:02:53.657  INFO 4996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:02:53.665  INFO 4996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:02:53.666  INFO 4996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:02:53.673  INFO 4996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:02:54.099  INFO 4996 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1006 ms
+2023-08-17 10:02:55.668  INFO 4996 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 10:02:55.958  INFO 4996 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 10:02:56.095  INFO 4996 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:02:56.106  INFO 4996 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 3.328 seconds (JVM running for 4.235)
+2023-08-17 10:03:00.333  INFO 4996 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 10:03:00.335  INFO 4996 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 10:03:21.437  INFO 28184 --- [main] com.yc.biz.AccountBizImplTest            : Starting AccountBizImplTest using Java 11.0.17 on DESKTOP-JLS5AVN with PID 28184 (started by qq271 in E:\java(idea)\boot125)
+2023-08-17 10:03:21.438  INFO 28184 --- [main] com.yc.biz.AccountBizImplTest            : The following 1 profile is active: "test"
+2023-08-17 10:03:22.148  INFO 28184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:03:22.149  INFO 28184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:03:22.163  INFO 28184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:03:22.175  INFO 28184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:03:22.175  INFO 28184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:03:22.185  INFO 28184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:03:26.459  INFO 28184 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:03:26.474  INFO 28184 --- [main] com.yc.biz.AccountBizImplTest            : Started AccountBizImplTest in 5.407 seconds (JVM running for 6.076)
+2023-08-17 10:03:27.028  INFO 28184 --- [main] com.yc.aop.RedisUpdateAspect             : 当前执行的是:Account com.yc.biz.AccountBizImpl.openAccount(double),清空缓存
+2023-08-17 10:03:27.638  INFO 28184 --- [main] com.yc.biz.AccountBizImplTest            : Account(accountid=22, money=126.0)
+2023-08-17 10:03:27.649  INFO 28184 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 10:07:38.460  INFO 4996 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 10:07:42.141  INFO 15524 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 15524 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-17 10:07:42.142  INFO 15524 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 10:07:42.172  INFO 15524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 10:07:42.173  INFO 15524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 10:07:42.756  INFO 15524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:07:42.757  INFO 15524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:07:42.766  INFO 15524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:07:42.775  INFO 15524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:07:42.776  INFO 15524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:07:42.783  INFO 15524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:07:43.224  INFO 15524 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1051 ms
+2023-08-17 10:07:44.802  INFO 15524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 10:07:45.092  INFO 15524 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 10:07:45.219  INFO 15524 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:07:45.229  INFO 15524 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 3.373 seconds (JVM running for 4.26)
+2023-08-17 10:07:49.965  INFO 15524 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 10:07:49.967  INFO 15524 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 10:08:14.024  INFO 15524 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 10:11:50.198  INFO 28328 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 28328 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-17 10:11:50.199  INFO 28328 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 10:11:50.229  INFO 28328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 10:11:50.229  INFO 28328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 10:11:50.792  INFO 28328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:11:50.792  INFO 28328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:11:50.801  INFO 28328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:11:50.810  INFO 28328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:11:50.811  INFO 28328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:11:50.819  INFO 28328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:11:51.235  INFO 28328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1006 ms
+2023-08-17 10:11:52.806  INFO 28328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 10:11:53.094  INFO 28328 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 10:11:53.221  INFO 28328 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:11:53.231  INFO 28328 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 3.293 seconds (JVM running for 4.131)
+2023-08-17 10:12:03.466  INFO 28328 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 10:14:15.034  INFO 26712 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 26712 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-17 10:14:15.035  INFO 26712 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 10:14:15.064  INFO 26712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 10:14:15.064  INFO 26712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 10:14:15.631  INFO 26712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:14:15.631  INFO 26712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:14:15.641  INFO 26712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:14:15.649  INFO 26712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:14:15.651  INFO 26712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:14:15.658  INFO 26712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:14:16.079  INFO 26712 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1015 ms
+2023-08-17 10:14:17.634  INFO 26712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 10:14:17.937  INFO 26712 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 10:14:18.079  INFO 26712 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:14:18.089  INFO 26712 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 3.311 seconds (JVM running for 4.169)
+2023-08-17 10:14:20.502  INFO 26712 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 10:14:20.504  INFO 26712 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 10:14:31.083  INFO 26712 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 10:14:34.724  INFO 30024 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 30024 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-17 10:14:34.725  INFO 30024 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 10:14:34.754  INFO 30024 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 10:14:34.755  INFO 30024 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 10:14:35.314  INFO 30024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:14:35.315  INFO 30024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:14:35.324  INFO 30024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:14:35.334  INFO 30024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:14:35.335  INFO 30024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:14:35.342  INFO 30024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:14:35.764  INFO 30024 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1009 ms
+2023-08-17 10:14:37.320  INFO 30024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 10:14:37.610  INFO 30024 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 10:14:37.737  INFO 30024 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:14:37.748  INFO 30024 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 3.291 seconds (JVM running for 4.165)
+2023-08-17 10:14:40.194  INFO 30024 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 10:14:40.195  INFO 30024 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 10:15:18.852  INFO 30024 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 10:15:22.495  INFO 29884 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 29884 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-17 10:15:22.495  INFO 29884 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 10:15:22.524  INFO 29884 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 10:15:22.524  INFO 29884 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 10:15:23.094  INFO 29884 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:15:23.095  INFO 29884 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:15:23.104  INFO 29884 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:15:23.113  INFO 29884 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:15:23.113  INFO 29884 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:15:23.122  INFO 29884 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:15:23.557  INFO 29884 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1032 ms
+2023-08-17 10:15:25.109  INFO 29884 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 10:15:25.397  INFO 29884 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 10:15:25.526  INFO 29884 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:15:25.536  INFO 29884 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 3.309 seconds (JVM running for 4.156)
+2023-08-17 10:15:28.442  INFO 29884 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 10:15:28.444  INFO 29884 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 10:15:45.472  INFO 13964 --- [main] com.yc.biz.AccountBizImplTest            : Starting AccountBizImplTest using Java 11.0.17 on DESKTOP-JLS5AVN with PID 13964 (started by qq271 in E:\java(idea)\boot125)
+2023-08-17 10:15:45.473  INFO 13964 --- [main] com.yc.biz.AccountBizImplTest            : The following 1 profile is active: "test"
+2023-08-17 10:15:46.196  INFO 13964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:15:46.198  INFO 13964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:15:46.211  INFO 13964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:15:46.221  INFO 13964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:15:46.222  INFO 13964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:15:46.231  INFO 13964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:15:50.290  INFO 13964 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:15:50.304  INFO 13964 --- [main] com.yc.biz.AccountBizImplTest            : Started AccountBizImplTest in 5.223 seconds (JVM running for 5.878)
+2023-08-17 10:15:50.800  INFO 13964 --- [main] com.yc.biz.AccountBizImplTest            : Account(accountid=8, money=4412.0)
+2023-08-17 10:15:50.810  INFO 13964 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 10:18:34.601  INFO 29884 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 10:18:38.496  INFO 16240 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 16240 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-17 10:18:38.496  INFO 16240 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 10:18:38.525  INFO 16240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 10:18:38.525  INFO 16240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 10:18:39.094  INFO 16240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:18:39.095  INFO 16240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:18:39.105  INFO 16240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:18:39.114  INFO 16240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:18:39.115  INFO 16240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:18:39.124  INFO 16240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:18:39.575  INFO 16240 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1049 ms
+2023-08-17 10:18:41.182  INFO 16240 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 10:18:41.476  INFO 16240 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 10:18:41.606  INFO 16240 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:18:41.616  INFO 16240 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 3.383 seconds (JVM running for 4.292)
+2023-08-17 10:18:49.393  INFO 18020 --- [main] com.yc.biz.AccountBizImplTest            : Starting AccountBizImplTest using Java 11.0.17 on DESKTOP-JLS5AVN with PID 18020 (started by qq271 in E:\java(idea)\boot125)
+2023-08-17 10:18:49.394  INFO 18020 --- [main] com.yc.biz.AccountBizImplTest            : The following 1 profile is active: "test"
+2023-08-17 10:18:50.119  INFO 18020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:18:50.121  INFO 18020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:18:50.133  INFO 18020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:18:50.143  INFO 18020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:18:50.144  INFO 18020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:18:50.153  INFO 18020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:18:54.244  INFO 18020 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:18:54.258  INFO 18020 --- [main] com.yc.biz.AccountBizImplTest            : Started AccountBizImplTest in 5.247 seconds (JVM running for 5.914)
+2023-08-17 10:18:54.739  INFO 18020 --- [main] com.yc.biz.AccountBizImplTest            : Account(accountid=8, money=4412.0)
+2023-08-17 10:18:54.749  INFO 18020 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 10:19:06.705  INFO 16240 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 10:19:06.707  INFO 16240 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 10:20:02.405  INFO 16240 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 10:30:21.022  INFO 7508 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 7508 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-17 10:30:21.023  INFO 7508 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 10:30:21.053  INFO 7508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 10:30:21.053  INFO 7508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 10:30:21.623  INFO 7508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:30:21.624  INFO 7508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:30:21.632  INFO 7508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:30:21.640  INFO 7508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:30:21.641  INFO 7508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:30:21.648  INFO 7508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:30:22.063  INFO 7508 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1010 ms
+2023-08-17 10:30:23.677  INFO 7508 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 10:30:23.966  INFO 7508 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 10:30:24.095  INFO 7508 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:30:24.104  INFO 7508 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 3.352 seconds (JVM running for 4.195)
+2023-08-17 10:30:30.545  INFO 7508 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 10:30:30.546  INFO 7508 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 10:30:40.205  INFO 7508 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 11:10:16.202  INFO 2288 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 2288 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-17 11:10:16.203  INFO 2288 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:10:16.234  INFO 2288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 11:10:16.235  INFO 2288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 11:10:16.853  INFO 2288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:10:16.854  INFO 2288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:10:16.864  INFO 2288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:10:16.874  INFO 2288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:10:16.875  INFO 2288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:10:16.884  INFO 2288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:10:17.383  INFO 2288 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1148 ms
+2023-08-17 11:10:18.991  INFO 2288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 11:10:19.306  INFO 2288 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 11:10:19.447  INFO 2288 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:10:19.458  INFO 2288 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 3.529 seconds (JVM running for 4.44)
+2023-08-17 11:10:23.033  INFO 2288 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 11:10:23.035  INFO 2288 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 11:10:34.252  INFO 2288 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 11:12:03.648  INFO 15088 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 15088 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-17 11:12:03.649  INFO 15088 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:12:03.680  INFO 15088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 11:12:03.680  INFO 15088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 11:12:04.260  INFO 15088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:12:04.261  INFO 15088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:12:04.270  INFO 15088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:12:04.279  INFO 15088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:12:04.280  INFO 15088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:12:04.288  INFO 15088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:12:04.703  INFO 15088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1022 ms
+2023-08-17 11:12:06.263  INFO 15088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 11:12:06.561  INFO 15088 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 11:12:06.700  INFO 15088 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:12:06.711  INFO 15088 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 3.34 seconds (JVM running for 4.244)
+2023-08-17 11:12:10.671  INFO 15088 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 11:12:10.673  INFO 15088 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 11:12:13.542  INFO 15088 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 11:12:26.685  INFO 15412 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 15412 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-17 11:12:26.686  INFO 15412 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:12:26.715  INFO 15412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 11:12:26.716  INFO 15412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 11:12:27.293  INFO 15412 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:12:27.293  INFO 15412 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:12:27.302  INFO 15412 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:12:27.312  INFO 15412 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:12:27.313  INFO 15412 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:12:27.320  INFO 15412 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:12:27.740  INFO 15412 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1024 ms
+2023-08-17 11:12:29.293  INFO 15412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 11:12:29.581  INFO 15412 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 11:12:29.709  INFO 15412 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:12:29.718  INFO 15412 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 3.318 seconds (JVM running for 4.184)
+2023-08-17 11:12:32.393  INFO 15412 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 11:12:32.395  INFO 15412 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-08-17 11:12:35.234  INFO 15412 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 11:13:21.237  INFO 1552 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 1552 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-17 11:13:21.238  INFO 1552 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:13:21.271  INFO 1552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 11:13:21.272  INFO 1552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 11:13:21.891  INFO 1552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:13:21.891  INFO 1552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:13:21.900  INFO 1552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:13:21.909  INFO 1552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:13:21.910  INFO 1552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:13:21.919  INFO 1552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:13:22.359  INFO 1552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1087 ms
+2023-08-17 11:13:24.196  INFO 1552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 11:13:24.604  INFO 1552 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 11:13:24.771  INFO 1552 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:13:24.784  INFO 1552 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 3.854 seconds (JVM running for 4.825)
+2023-08-17 11:13:26.778  INFO 1552 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 11:13:26.780  INFO 1552 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-08-17 11:13:26.791  WARN 1552 --- [XNIO-1 task-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2023-08-17 11:13:40.643  INFO 1552 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 11:15:00.718  INFO 7776 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 7776 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-17 11:15:00.719  INFO 7776 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:15:00.753  INFO 7776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 11:15:00.753  INFO 7776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 11:15:01.328  INFO 7776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:15:01.329  INFO 7776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:15:01.337  INFO 7776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:15:01.346  INFO 7776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:15:01.347  INFO 7776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:15:01.355  INFO 7776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:15:01.795  INFO 7776 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1041 ms
+2023-08-17 11:15:03.465  INFO 7776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 11:15:03.774  INFO 7776 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 11:15:03.916  INFO 7776 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:15:03.926  INFO 7776 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 3.512 seconds (JVM running for 4.374)
+2023-08-17 11:15:06.831  INFO 7776 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 11:15:06.832  INFO 7776 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 11:15:06.842  WARN 7776 --- [XNIO-1 task-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2023-08-17 11:15:07.675  WARN 7776 --- [XNIO-1 task-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2023-08-17 11:15:24.494  WARN 7776 --- [XNIO-1 task-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2023-08-17 11:15:46.578  INFO 7776 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 11:18:32.212  INFO 29244 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 29244 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-17 11:18:32.213  INFO 29244 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:18:32.243  INFO 29244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 11:18:32.243  INFO 29244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 11:18:32.808  INFO 29244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:18:32.808  INFO 29244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:18:32.817  INFO 29244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:18:32.825  INFO 29244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:18:32.826  INFO 29244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:18:32.833  INFO 29244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:18:33.240  INFO 29244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 997 ms
+2023-08-17 11:18:34.829  INFO 29244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 11:18:35.132  INFO 29244 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 11:18:35.258  INFO 29244 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:18:35.268  INFO 29244 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 3.331 seconds (JVM running for 4.152)
+2023-08-17 11:18:37.730  INFO 29244 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 11:18:37.732  INFO 29244 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 11:19:03.405  INFO 29244 --- [XNIO-1 task-1] com.yc.biz.AccountBizImpl                : 从缓存的键:2023-08-17,取出的值list为:[[OpRecord(id=46, accountid=22, opmoney=126.0, optime=2023-08-17 10:03:27, optype=DEPOSITE, transferid=null)]]
+2023-08-17 11:19:16.970  INFO 14912 --- [main] com.yc.biz.AccountBizImplTest            : Starting AccountBizImplTest using Java 11.0.17 on DESKTOP-JLS5AVN with PID 14912 (started by qq271 in E:\java(idea)\boot125)
+2023-08-17 11:19:16.971  INFO 14912 --- [main] com.yc.biz.AccountBizImplTest            : The following 1 profile is active: "test"
+2023-08-17 11:19:17.656  INFO 14912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:19:17.658  INFO 14912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:19:17.675  INFO 14912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:19:17.685  INFO 14912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:19:17.686  INFO 14912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:19:17.695  INFO 14912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:19:21.719  INFO 14912 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:19:21.733  INFO 14912 --- [main] com.yc.biz.AccountBizImplTest            : Started AccountBizImplTest in 5.123 seconds (JVM running for 5.796)
+2023-08-17 11:19:22.248  INFO 14912 --- [main] com.yc.aop.RedisUpdateAspect             : 当前执行的是:Account com.yc.biz.AccountBizImpl.openAccount(double),清空缓存
+2023-08-17 11:19:22.826  INFO 14912 --- [main] com.yc.biz.AccountBizImplTest            : Account(accountid=23, money=126.0)
+2023-08-17 11:19:22.836  INFO 14912 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 11:19:44.079  INFO 29244 --- [XNIO-1 task-1] com.yc.biz.AccountBizImpl                : 从缓存的键:2023-08-17,取出的值list为:[[OpRecord(id=46, accountid=22, opmoney=126.0, optime=2023-08-17 10:03:27, optype=DEPOSITE, transferid=null), OpRecord(id=47, accountid=23, opmoney=126.0, optime=2023-08-17 11:19:22, optype=DEPOSITE, transferid=null)]]
+2023-08-17 11:19:48.812  INFO 29244 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 11:30:22.269  INFO 21388 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 11.0.17 on DESKTOP-JLS5AVN with PID 21388 (E:\java(idea)\boot125\target\classes started by qq271 in E:\java(idea)\boot125)
+2023-08-17 11:30:22.270  INFO 21388 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:30:22.300  INFO 21388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 11:30:22.300  INFO 21388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 11:30:22.854  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:30:22.854  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:30:22.863  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:30:22.872  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:30:22.873  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:30:22.881  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:30:23.307  INFO 21388 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1006 ms
+2023-08-17 11:30:24.902  INFO 21388 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 11:30:25.213  INFO 21388 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8889 (http)
+2023-08-17 11:30:25.347  INFO 21388 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:30:25.357  INFO 21388 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 3.348 seconds (JVM running for 4.184)
+2023-08-17 11:30:41.501  INFO 21388 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 11:30:41.503  INFO 21388 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 11:30:52.946  INFO 21388 --- [XNIO-1 task-1] com.yc.biz.AccountBizImpl                : 从缓存的键:2023-08-17,取出的值list为:[[OpRecord(id=46, accountid=22, opmoney=126.0, optime=2023-08-17 10:03:27, optype=DEPOSITE, transferid=null), OpRecord(id=47, accountid=23, opmoney=126.0, optime=2023-08-17 11:19:22, optype=DEPOSITE, transferid=null)]]
+2023-08-17 11:30:55.081  INFO 21388 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler

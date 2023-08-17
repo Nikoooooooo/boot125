@@ -1,9 +1,8 @@
 package com.yc.bean;
 
 import com.baomidou.mybatisplus.annotation.IEnum;
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
-
-@TableName("optype")
 public enum OpType implements IEnum<String> {
     WITHDRAW("withdraw",1),DEPOSITE("deposite",2),TRANSFER("transfer",3);
 

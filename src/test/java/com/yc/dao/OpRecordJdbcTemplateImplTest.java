@@ -28,7 +28,7 @@ public class OpRecordJdbcTemplateImplTest {
         OpRecord opRecord=new OpRecord();
         opRecord.setAccountid(6);
         opRecord.setOpmoney(5);
-        opRecord.setOpType(OpType.DEPOSITE);
+        opRecord.setOptype(OpType.DEPOSITE);
         this.opRecordDao.insertOpRecord(opRecord);
     }
 

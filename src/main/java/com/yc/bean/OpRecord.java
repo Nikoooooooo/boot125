@@ -6,12 +6,14 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
+import java.io.Serializable;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
 @TableName("oprecord")
-public class OpRecord {
+public class OpRecord implements Serializable {
     @TableId(type = IdType.AUTO)
     private int id;
     private int accountid;
@@ -19,6 +21,6 @@ public class OpRecord {
     @TableField(fill = FieldFill.INSERT)
     private String optime;    //数据库中是datatime,在java中转为String
     @TableField("optype")
-    private OpType opType;   //OpType类型
+    private OpType optype;   //OpType类型
     private Integer transferid;
 }

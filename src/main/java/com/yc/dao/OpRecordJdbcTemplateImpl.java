@@ -22,7 +22,7 @@ public class OpRecordJdbcTemplateImpl implements OpRecordDao{
         String sql="insert into oprecord(accountid,opmoney,optime,optype,transferid) values(?,?,now(),?,?)";
 
         this.jdbcTemplate.update(sql,opRecord.getAccountid(),opRecord.getOpmoney(),
-                opRecord.getOpType().getKey(),opRecord.getTransferid());
+                opRecord.getOptype().getKey(),opRecord.getTransferid());
     }
 
     @Override
@@ -38,11 +38,11 @@ public class OpRecordJdbcTemplateImpl implements OpRecordDao{
 
                     String optype=resultSet.getString(5);
                     if (optype.equalsIgnoreCase("withdraw")){
-                        opRecord.setOpType(OpType.WITHDRAW);
+                        opRecord.setOptype(OpType.WITHDRAW);
                     }else if (optype.equalsIgnoreCase("deposite")){
-                        opRecord.setOpType(OpType.DEPOSITE);
+                        opRecord.setOptype(OpType.DEPOSITE);
                     }else {
-                        opRecord.setOpType(OpType.TRANSFER);
+                        opRecord.setOptype(OpType.TRANSFER);
                     }
                     opRecord.setTransferid(resultSet.getInt(6));
                     return opRecord;
@@ -63,11 +63,11 @@ public class OpRecordJdbcTemplateImpl implements OpRecordDao{
 
                     String optype=resultSet.getString(5);
                     if (optype.equalsIgnoreCase("withdraw")){
-                        opRecord.setOpType(OpType.WITHDRAW);
+                        opRecord.setOptype(OpType.WITHDRAW);
                     }else if (optype.equalsIgnoreCase("deposite")){
-                        opRecord.setOpType(OpType.DEPOSITE);
+                        opRecord.setOptype(OpType.DEPOSITE);
                     }else {
-                        opRecord.setOpType(OpType.TRANSFER);
+                        opRecord.setOptype(OpType.TRANSFER);
                     }
                     opRecord.setTransferid(resultSet.getInt(6));
                     return opRecord;

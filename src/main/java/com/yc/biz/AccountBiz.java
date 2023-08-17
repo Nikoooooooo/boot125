@@ -1,6 +1,9 @@
 package com.yc.biz;
 
 import com.yc.bean.Account;
+import com.yc.bean.OpRecord;
+
+import java.util.List;
 
 public interface AccountBiz {
     /*银行开户*/
@@ -25,4 +28,11 @@ public interface AccountBiz {
 
     //查询是否存在accountId账户
     public Account findAccount(int accountId);
+
+    //查询全部金额
+    public Double findTotalBalance();
+
+    //查询当日流水
+    public List<OpRecord> findToday(String date);
+
 }

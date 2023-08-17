@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 8889
 logging:
   level:
     root: error
@@ -11,8 +11,32 @@ logging:
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启SQL语句打印
+  type-enums-package: com.yc.bean
 
 spring:
+  redis:
+    database: 0
+    host: localhost
+    port: 6380
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+    #邮箱基本配置
+  mail:
+      #配置smtp服务主机地址
+      # qq邮箱为smtp.qq.com          端口号465或587
+      # sina    smtp.sina.cn
+      # aliyun  smtp.aliyun.com
+      # 163     smtp.163.com       端口号465或994
+    host: smtp.qq.com
+      #发送者邮箱
+    username: 2711837871@qq.com
+      #配置密码,注意不是真正的密码，而是刚刚申请到的授权码
+    password: klagnydrpmlsddfb
+
+
   jdbc:
     fetchSize: 100
     maxRows: 10000
@@ -89,15 +113,3 @@ spring:
   profiles:
     active: test
 
----
-spring:
-  profiles: test
-
----
-spring:
-  profiles: prod
-logging:
-  level:
-    root: error
-    com.yc: error
-    org.springframework: error
